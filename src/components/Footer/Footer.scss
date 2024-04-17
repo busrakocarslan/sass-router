@@ -1,0 +1,53 @@
+@import "../../pages/scss/reset";
+@import "../../pages/scss/variables";
+@import "../../pages/scss/mixins";
+//*****************************************************
+//*   FOOTER
+//*****************************************************
+
+
+
+
+
+
+
+.vertical{
+    // border: 2px solid red;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 1rem;
+    
+    
+    .social-icons{
+        width: 150px;
+        font-size: 1.5rem;
+        
+        color: $third-color;
+        margin-bottom: 2rem;
+        transition: all .3s ease-in;
+        &:hover{
+            color: $secondary-color;
+            cursor: pointer;
+
+        }
+        
+        
+      
+    }
+   
+}
+
+// .middle{
+//     // border: 2px solid red;
+//     height: 20vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+    
+//     align-items: center;
+//     padding: 1rem;
+//     gap: 1rem;
+//     @extend .link-style;
+// }

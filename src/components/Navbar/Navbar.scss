@@ -1,0 +1,38 @@
+@import "../../pages/scss/reset";
+@import "../../pages/scss/variables";
+@import "../../pages/scss/mixins";
+
+
+.nav{
+    // border: 2px solid red;
+    
+    height: 10vh;
+    padding: 1rem;
+    text-align: right;   
+   
+
+    &__link{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: $font-family;
+        // transition: all 1s;
+        @include transition(.5s);
+        display: inline;
+        padding: 1rem;
+        text-decoration: none;
+        color: mediumaquamarine;
+        padding-top: 2rem;
+
+
+        &:hover{
+            color: orangered;
+        }
+        
+    }
+
+
+}
+.active{
+    color:$third-color;
+}

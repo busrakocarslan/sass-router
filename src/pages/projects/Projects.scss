@@ -1,0 +1,43 @@
+@import "../../pages/scss/reset";
+@import "../../pages/scss/variables";
+@import "../../pages/scss/mixins";
+
+//*****************************************************
+//*   PROJECT PAGE
+//*****************************************************
+
+
+.project-container{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    
+
+
+.projects{
+    &__items{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2rem 5rem;
+        gap: 1rem 0;
+    }
+    &__item{
+        width: 70%;
+        cursor: pointer;
+        border: 5px solid $third-color;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        transition: all .3s ease-in-out;       
+
+        
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+}
+}

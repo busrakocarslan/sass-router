@@ -1,0 +1,52 @@
+@import "../../pages/scss/reset";
+@import "../../pages/scss/variables";
+@import "../../pages/scss/mixins";
+@import "../../pages/scss/responsive";
+
+//*****************************************************
+//*   ABOUT PAGE
+//*****************************************************
+
+
+
+
+    .about{
+        min-height: 80vh;
+        text-align: center;
+        
+
+        h2 {
+            font-size: 3rem;
+            color: $secondary-color;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 2rem;
+            line-height: 1.5rem;
+        }
+        button {
+            border: none;
+            padding: 1rem;
+            background-color:$third-color;
+            border-radius: 10px;
+            margin: 5rem;
+            color: white;
+            transition: all .3s ease-in;
+            cursor: pointer;
+            &:hover{
+                scale: 1.1;
+                background-color: $secondary-color;
+                color: $third-color;
+            }
+
+
+        }
+        img{
+            width: 250px;
+            border-radius: 10px;
+        }
+    }
+
+
+

@@ -1,0 +1,38 @@
+//*****************************************************
+//*   CONTACT PAGE
+//*****************************************************
+@import "../../pages/scss/reset";
+@import "../../pages/scss/variables";
+@import "../../pages/scss/mixins";
+
+
+
+.contact{
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem;
+
+    h2{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: $third-color;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+        gap: 2.5rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-secondary{
+        color: $secondary-color;
+    }
+}
